@@ -16,7 +16,7 @@
         "jwt"
     ],
     "author": "Bill Mecha",
-    "license": "ISC",
+    "license": "",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.19.0",
