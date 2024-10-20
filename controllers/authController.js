@@ -7,7 +7,7 @@ exports.register = async (req, res) => {
   try {
     const user = new User({ username, email, password });
     await user.save();
-    res.status(201).json({ message: 'User created' });
+    res.status(201).json({ message: 'Users created' });
   } catch (err) {
     res.status(400).json({ error: err.message });
   }

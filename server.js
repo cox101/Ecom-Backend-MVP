@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 const authRoutes = require('./Routes/auth');
 const productRoutes = require('./Routes/product');
-const cartRoutes = require('./routes/cart');
+const cartRoutes = require('./Routes/cart');
 const orderRoutes = require('./Routes/order');
 
 dotenv.config();
@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use('/api/auth', authRoutes);
-app.use('/api/products', productRoutes);
+app.use('/api/product', productRoutes);
 app.use('/api/cart', cartRoutes);
 app.use('/api/orders', orderRoutes);
 

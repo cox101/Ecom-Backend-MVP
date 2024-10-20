@@ -1,10 +1,20 @@
-const Product = require('../models/Products');
+const Product = require('../models/product');
 
 exports.getAllProducts = async (req, res) => {
   try {
     const products = await Product.find();
     res.json(products);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
+  } catch (error) {
+    res.status(500).json({ message: 'Server Error' });
+  }
+};
+
+exports.createProduct = async (req, res) => {
+  try {
+    const newProduct = new Product(req.body);
+    const savedProduct = await newProduct.save();
+    res.status(201).json(savedProduct);
+  } catch (error) {
+    res.status(500).json({ message: 'Server Error' });
   }
 };
