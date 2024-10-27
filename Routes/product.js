@@ -4,7 +4,7 @@ const router = express.Router();
 // Import the product controller
 const productController = require('../controllers/productController');
 
-// Define the routes
+// Defines the routes
 router.get('/', productController.getAllProducts);
 router.post('/', productController.createProduct);
 
