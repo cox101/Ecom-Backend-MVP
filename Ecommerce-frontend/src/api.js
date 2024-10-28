@@ -19,3 +19,16 @@ export const addToCart = (cartData) => {
   return axios.post(`${API_URL}/cart`, cartData); // Adjust the endpoint as needed
 };
 
+const handleRegister = async (userData) => {
+  try {
+    const response = await axios.post(`${API_URL}/auth/register`, userData);
+    if (response && response.data) {
+      console.log('Registration successful:', response.data);
+      // Handle successful registration
+    } else {
+      console.error('No data in response:', response);
+    }
+  } catch (error) {
+    console.error('Error during registration:', error);
+  }
+};
