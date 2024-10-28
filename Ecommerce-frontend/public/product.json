@@ -2,23 +2,23 @@
 [
   {
     "id": 1,
-    "name": "Porsche 911",
-    "description": "The Porsche 911 is an iconic sports car renowned for its timeless design, exhilarating performance, and exceptional engineering. With a distinctive silhouette and a rear-engine layout, the 911 delivers a perfect blend of agility and stability, making it a favorite among driving enthusiasts. Available in various models, each offers powerful engines, advanced technology, and luxurious interiors. Experience the thrill of driving a Porsche 911, where heritage meets innovation on every twist and turn.",
+    "name": "BMW M series",
+    "description": "Description for product 1",
     "price": 10.0,
-    "image": "/images/product1.jpg"
+    "image": "/images/BMW M series.jpg"
   },
   {
     "id": 2,
     "name": "Mercedes Benz",
     "description": "Description for product 2",
     "price": 20.0,
-    "image": "/images/product2.jpg"
+    "image": "/images/Mercedes.jpg"
   },
   {
     "id": 3,
-    "name": "BMW",
+    "name": "Audi",
     "description": "Description for product 3",
     "price": 20.0,
-    "image": "/images/product2.jpg"
+    "image": "/images/AUDI.jpg"
   }
 ]

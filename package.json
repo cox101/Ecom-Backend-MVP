@@ -1,0 +1,11 @@
+{
+  "name": "ecom-backend-mvp",
+  "version": "1.0.0",
+  "description": "E-commerce Backend MVP\r Overview\r This project is a backend system for an e-commerce platform that allows users to browse products, add items to a shopping cart, and place orders. It also features a secure authentication system to handle user registration and login.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
