@@ -5,16 +5,18 @@ import Cart from "./components/Cart";
 import HomePage from "./pages/HomePage";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
+import Products from "./pages/Products";
 //import "./styles.css"; // Importing global styles
 
 function App() {
   return (
     <Router>
       {/* Main Content */}
-      <div className="container mt-4">
+      <div className="container">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/products" element={<Products />} />
           <Route path="/login" element={<Login />} />
 
           <Route path="/register" element={<Register />} />
