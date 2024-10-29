@@ -19,7 +19,7 @@ const Register = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-blue-100">
+    <div className="flex items-center justify-center min-h-screen bg-gray-200">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
         <h2 className="text-2xl font-bold mb-6 text-center text-gray-700">
           Create a New Account
